@@ -9,7 +9,13 @@ var y = 10;
 var z = 5;
 
 // function dibawah ini akan mereturn angka dari hasil penambahan
-//var x = y + z;
+var x = y + z;
 function sumNum(a, b) {
   return a + b;
 }
+
+var IniSebuahVar = "var";
+
+iniSebuahVar = "variabel baru";
+
+console.log(IniSebuahVar);
