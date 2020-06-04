@@ -14,8 +14,8 @@ function sumNum(a, b) {
   return a + b;
 }
 
-var IniSebuahVar = "var";
+var iniSebuahVar = "var";
 
 iniSebuahVar = "variabel baru";
 
-console.log(IniSebuahVar);
+console.log(iniSebuahVar);
