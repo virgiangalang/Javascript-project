@@ -2,20 +2,8 @@ const projectTitle = document.querySelector("#project-title");
 
 projectTitle.textContent = "Title Baru dari JS File";
 
-var thisIsFunction = "this is function";
-const PI = 3.14;
+var name = "Virgian Galang";
+var greet = "Hello, ";
 
-var y = 10;
-var z = 5;
-
+console.log(greet + name);
 // function dibawah ini akan mereturn angka dari hasil penambahan
-var x = y + z;
-function sumNum(a, b) {
-  return a + b;
-}
-
-var iniSebuahVar = "var";
-
-iniSebuahVar = "variabel baru";
-
-console.log(iniSebuahVar);
