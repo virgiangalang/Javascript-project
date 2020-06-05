@@ -6,10 +6,14 @@
 // }
 // foo();
 
-for (const i = 0; i < 3; i++) {
-  console.log("hello " + i);
-}
-console.log(i);
+// for (const i = 0; i < 3; i++) {
+//   console.log("hello " + i);
+// }
+// console.log(i);
+
+let nama = "Budi Subsidi";
+let nama = "Gunawan Setiawan";
+console.log(nama);
 
 const projectTitle = document.querySelector("#project-title");
 
