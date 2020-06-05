@@ -11,8 +11,8 @@
 // }
 // console.log(i);
 
-let nama = "Budi Subsidi";
-let nama = "Gunawan Setiawan";
+const nama = "Budi Subsidi";
+nama = "Gunawan Setiawan";
 console.log(nama);
 
 const projectTitle = document.querySelector("#project-title");
