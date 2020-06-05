@@ -2,8 +2,8 @@ const projectTitle = document.querySelector("#project-title");
 
 projectTitle.textContent = "Title Baru dari JS File";
 
-var name = "Virgian Galang";
-var greet = "Hello, ";
+var numberA = 100;
+var numberB = numberA + 50;
 
-console.log(greet + name);
+console.log(numberB);
 // function dibawah ini akan mereturn angka dari hasil penambahan
