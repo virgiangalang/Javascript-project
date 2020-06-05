@@ -5,13 +5,9 @@
 //   return fooVar;
 // }
 // foo();
-console.log = bar;
 
 const bar = "bubar";
-
-// var nama = "Virgian galang";
-
-// let babi ="makan iga babi"
+console.log(bar);
 
 const projectTitle = document.querySelector("#project-title");
 
