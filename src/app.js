@@ -1,6 +1,6 @@
 //var dan let
 function foo() {
-  var fooVar = "bar";
+  let fooVar = "bar";
   console.log("didalam func " + fooVar);
   return fooVar;
 }
