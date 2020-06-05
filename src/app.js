@@ -6,8 +6,10 @@
 // }
 // foo();
 
-const bar = "bubar";
-console.log(bar);
+for (const i = 0; i < 3; i++) {
+  console.log("hello " + i);
+}
+console.log(i);
 
 const projectTitle = document.querySelector("#project-title");
 
