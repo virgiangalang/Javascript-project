@@ -4,7 +4,6 @@ projectTitle.textContent = "Title Baru dari JS File";
 //asdasd
 /*
  *asfasf
- *asdasdada
-
+ 
 
  */
