@@ -1,10 +1,8 @@
-let additional = 100 + 200;
-let substraction = 200 - 100;
-let multiplication = 100 * 2;
-let division = 200 / 2;
-let edgeCase = additional - substraction * division;
-let modulo = 200 % 3;
-console.log(edgeCase);
+let specialNumber1 = Infinity;
+let specialNumber2 = -Infinity;
+let specialNumber3 = NaN;
+let specialCase = "Five" - 5;
+console.log(specialCase);
 
 const projectTitle = document.querySelector("#project-title");
 
