@@ -1,4 +1,4 @@
-let numberdua = 2020;
+//let numberdua = 2020;
 
 const projectTitle = document.querySelector("#project-title");
 
