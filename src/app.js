@@ -1,7 +1,7 @@
 let specialNumber1 = Infinity;
 let specialNumber2 = -Infinity;
 let specialNumber3 = NaN;
-let specialCase = "Five" - 5;
+let specialCase = Infinity - Infinity;
 console.log(specialCase);
 
 const projectTitle = document.querySelector("#project-title");
