@@ -4,7 +4,7 @@ let multiplication = 100 * 2;
 let division = 200 / 2;
 let edgeCase = additional - substraction * division;
 let modulo = 200 % 3;
-console.log();
+console.log(edgeCase);
 
 const projectTitle = document.querySelector("#project-title");
 
