@@ -6,6 +6,8 @@ let firstName = "David";
 let lastName = "Becham";
 let shirtNumber = 7;
 
+let namaLengkap = `${firstName} ${lastName} ${shirtNumber}`;
+
 const projectTitle = document.querySelector("#project-title");
 
 projectTitle.textContent = "Title Baru dari JS File";
