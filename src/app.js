@@ -7,6 +7,7 @@ let lastName = "Becham";
 let shirtNumber = 7;
 
 let namaLengkap = `${firstName} ${lastName} ${shirtNumber}`;
+console.log(namaLengkap);
 
 const projectTitle = document.querySelector("#project-title");
 
