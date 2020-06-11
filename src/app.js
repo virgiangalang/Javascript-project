@@ -1,8 +1,17 @@
-// let tahun = 2020;
-// console.log(tahun === 2019 + 1);
-
-// let yes = !false;
-// console.log(yes);
+let biodataObject = {
+  firstName: "Bambang",
+  lastName: "Sutarman",
+  makananFavorit: ["Sate babi, Rica babi, Babi kecap"],
+  istri: {
+    firstName: "Siti Nurjeha",
+    lastName: "Semloha",
+    makananFavorit: ["Sate babi, Rica babi, Babi kecap"],
+    anak: {
+      firstName: "Budi Subsidi",
+      lastName: "Abadi"
+    }
+  }
+};
 
 const projectTitle = document.querySelector("#project-title");
 
