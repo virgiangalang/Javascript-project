@@ -5,11 +5,7 @@ let biodataObject = {
   istri: {
     firstName: "Siti Nurjeha",
     lastName: "Semloha",
-    makananFavorit: ["Sate babi, Rica babi, Babi kecap"],
-    anak: {
-      firstName: "Budi Subsidi",
-      lastName: "Abadi"
-    }
+    makananFavorit: ["Sate babi, Rica babi, Babi kecap"]
   }
 };
 
