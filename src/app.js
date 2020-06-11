@@ -1,7 +1,7 @@
 let yes = true;
 let no = false;
 
-console.log(2 >= 2);
+console.log("Apple" == "Orange");
 
 const projectTitle = document.querySelector("#project-title");
 
