@@ -1,6 +1,6 @@
-// let yourName = String(prompt("What is Your Name?"));
+let yourName = String(prompt("What is Your problem?"));
 
-// alert(`Hi my name is ${yourName}`);
+alert(`Of course you are positive GOBLOK!!!`);
 
 const projectTitle = document.querySelector("#project-title");
 
