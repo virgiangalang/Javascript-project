@@ -1,5 +1,7 @@
-console.log(8 + null);
-console.log("5" + 5);
+let yes = true;
+let no = false;
+
+console.log(2 >= 2);
 
 const projectTitle = document.querySelector("#project-title");
 
