@@ -1,6 +1,6 @@
-let yourName = String(prompt("What is Your Name?"));
+// let yourName = String(prompt("What is Your Name?"));
 
-alert(`Hi my name is ${yourName}`);
+// alert(`Hi my name is ${yourName}`);
 
 const projectTitle = document.querySelector("#project-title");
 
