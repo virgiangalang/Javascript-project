@@ -1,7 +1,5 @@
-let yes = true;
-let no = false;
-
-console.log("Apple" == "Orange");
+let tahun = 2020;
+console.log(tahun === 2019 + 1);
 
 const projectTitle = document.querySelector("#project-title");
 
