@@ -1,8 +1,8 @@
-let tahun = 2020;
-console.log(tahun === 2019 + 1);
+// let tahun = 2020;
+// console.log(tahun === 2019 + 1);
 
-let yes = !false;
-console.log(yes);
+// let yes = !false;
+// console.log(yes);
 
 const projectTitle = document.querySelector("#project-title");
 
