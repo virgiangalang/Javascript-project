@@ -1,7 +1,7 @@
 let yearOfBirth = Number(prompt("Kapan Tahun Lahirmu?"));
 
-if (2020 - yearOfBirth < 17) {
-  alert("Kamu masih bocil, umurmu masih dibawah 17 Tahun");
+if (2020 - yearOfBirth < 17 && 2020 - yearOfBirth > 10) {
+  alert("Kamu masih anak anak");
 } else {
   alert("Kamu sudah cukup Umur");
 }
