@@ -1,13 +1,6 @@
-let count = 0;
-while (count < 20) {
-  console.log(count);
-  count = count + 2;
+for (let i = 0; i <= 100; i = i + 2) {
+  console.log(i);
 }
-
-do {
-  console.log(count);
-  count = count + 2;
-} while (count < 2);
 
 const projectTitle = document.querySelector("#project-title");
 
