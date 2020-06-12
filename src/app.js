@@ -1,4 +1,4 @@
-for (let i = 0; i <= 100; i = i + 2) {
+for (let i = "*"; i.length <= 100; i = i + "*") {
   console.log(i);
 }
 
