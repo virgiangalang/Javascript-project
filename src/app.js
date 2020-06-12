@@ -1,12 +1,14 @@
-let yearOfBirth = Number(prompt("Kapan Tahun Lahirmu?"));
-
-if (2020 - yearOfBirth < 10) {
-  alert("Kamu masih anak anak");
-} else {
-  alert("GOBLOK KAMU COK!");
+let masalah = prompt("What's Your Problem?");
+switch (masalah) {
+  case "nothing":
+    alert("Good, remember you are in strong hands");
+    break;
+  default:
+    alert(
+      "Remember, God is bigger than your problem,just do your best then he will do His part"
+    );
+    break;
 }
-
-//2020 - yearOfBirth < 17 ? alert("Kamu masih kecil") : alert("kamu sudah tua");
 
 const projectTitle = document.querySelector("#project-title");
 
