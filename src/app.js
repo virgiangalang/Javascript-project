@@ -1,6 +1,10 @@
-let yourName = String(prompt("What is Your problem?"));
+let yearOfBirth = Number(prompt("Kapan Tahun Lahirmu?"));
 
-alert(`Of course you are positive GOBLOK!!!`);
+if (2020 - yearOfBirth < 17) {
+  alert("Kamu masih bocil, umurmu masih dibawah 17 Tahun");
+} else {
+  alert("Kamu sudah cukup Umur");
+}
 
 const projectTitle = document.querySelector("#project-title");
 
