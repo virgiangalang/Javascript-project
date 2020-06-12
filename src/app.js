@@ -11,7 +11,3 @@ if (2020 - yearOfBirth < 10) {
 } else {
   alert("GOBLOK KAMU COK!");
 }
-
-const projectTitle = document.querySelector("#project-title");
-
-projectTitle.textContent = "Title Baru dari JS File";
