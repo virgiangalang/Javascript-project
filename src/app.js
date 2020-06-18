@@ -1,6 +1,11 @@
 const changeProjectHeadingTitle = title => {
   const projectTitle = document.querySelector("#project-title");
-  projectTitle.textContent = title;
+
+  if (typeof title === "string") {
+    projectTitle.textContent = title;
+  } else {
+    console.error("your argument is not string!");
+  }
 };
 
-changeProjectHeadingTitle("Title Baru dari JS File");
+changeProjectHeadingTitle(2020);
