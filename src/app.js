@@ -10,7 +10,7 @@ const perpangkatan1 = (n = 10) => {
   return n * n;
 };
 
-console.log(perpangkatan1());
+console.log(perpangkatan1(20));
 
 const projectTitle = document.querySelector("#project-title");
 
