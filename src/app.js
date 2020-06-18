@@ -1,12 +1,16 @@
-const perpangkatan = function(n) {
-  if (n == undefined) {
-    return 5 * 5;
-  }
+// const perpangkatan = function(n) {
+//   if (n == undefined) {
+//     return 5 * 5;
+//   }
 
+//   return n * n;
+// };
+
+const perpangkatan1 = (n = 10) => {
   return n * n;
 };
 
-console.log(perpangkatan(5));
+console.log(perpangkatan1());
 
 const projectTitle = document.querySelector("#project-title");
 
