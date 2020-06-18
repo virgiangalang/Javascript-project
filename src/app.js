@@ -1,6 +1,12 @@
-for (let i = "*"; i.length <= 100; i = i + "*") {
-  console.log(i);
-}
+const perpangkatan = function(n) {
+  if (n == undefined) {
+    return 5 * 5;
+  }
+
+  return n * n;
+};
+
+console.log(perpangkatan(5));
 
 const projectTitle = document.querySelector("#project-title");
 
