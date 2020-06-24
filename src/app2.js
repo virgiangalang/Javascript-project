@@ -1,8 +1,6 @@
-const array = [1, 2, 3, 4, 5, 6, 7, 8];
+//slice = membuat copy dan tidak merubah original
 
-//unshift = menambahkan value didepan array
-//array.unshift(0);
+const animals = ["kucing", "anjing", "babi", "kudanil", "ayam"];
+animals.slice(2, 4);
 
-//shift = menghilangkan value didepan
-array.shift();
-console.log(array);
+console.log(animals);
