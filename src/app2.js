@@ -1,17 +1,9 @@
-// //foreach
+//foreach
 
-// const animals = ["kucing", "anjing", "babi", "kudanil", "ayam"];
+const age = [14, 17, 8, 11, 30, 27, 21, 35, 48];
+const filteredAge = age.filter(myFunction);
 
-// animals.forEach(myFunction);
-
-// function myFunction(value) {
-//   console.log(value + " hidup");
-// }
-
-const numbers = [10, 20, 30, 40, 50, 60, 70];
-const multipliedNumber = numbers.map(multiply);
-function multiply(value) {
-  return value * 2;
+function myFunction(value) {
+  return value > 18;
 }
-
-console.log(multipliedNumber);
+console.log(filteredAge);
