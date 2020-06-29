@@ -1,6 +1,9 @@
-//slice = membuat copy dan tidak merubah original
+//foreach
 
 const animals = ["kucing", "anjing", "babi", "kudanil", "ayam"];
-let hewanYangDitangkap = animals.slice(2, 4);
 
-console.log(animals.slice(2, 4));
+animals.forEach(myFunction);
+
+function myFunction(value) {
+  console.log(value + " hidup");
+}
