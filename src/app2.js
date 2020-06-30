@@ -6,10 +6,10 @@ const person = {
   nationality: "indonesia"
 };
 
-console.log(person);
+// console.log(person);
 
-const person2 = new Object();
-person2.firstName = "Virgian";
-person2.lastName = "Galang";
+// const person2 = new Object();
+// person2.firstName = "Virgian";
+// person2.lastName = "Galang";
 
-console.log(person2);
+// console.log(person2);
