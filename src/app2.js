@@ -1,12 +1,14 @@
 //object
 const person = {
-  firstName: "Virgian",
-  lastName: "Galang",
+  name: {
+    firstName: "Virgian",
+    lastName: "Galang"
+  },
   age: 20,
   nationality: "indonesia"
 };
 
-const personName = person.firstName;
+const personName = person.name.firstName;
 console.log(personName);
 
 // console.log(person);
