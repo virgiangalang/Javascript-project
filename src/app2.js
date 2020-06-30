@@ -1,9 +1,15 @@
-//filter
+//object
+const person = {
+  firstName: "Virgian",
+  lastName: "Galang",
+  age: 20,
+  nationality: "indonesia"
+};
 
-const age = [14, 17, 8, 11, 30, 27, 21, 35, 48];
-const filteredAge = age.filter(myFunction);
+console.log(person);
 
-function myFunction(value) {
-  return value > 18;
-}
-console.log(filteredAge);
+const person2 = new Object();
+person2.firstName = "Virgian";
+person2.lastName = "Galang";
+
+console.log(person2);
