@@ -6,7 +6,7 @@ const person = {
   nationality: "indonesia"
 };
 
-const personName = person["firstName"];
+const personName = person.firstName;
 console.log(personName);
 
 // console.log(person);
