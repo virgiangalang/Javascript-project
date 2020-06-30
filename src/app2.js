@@ -1,8 +1,35 @@
-//object
+//array of objects
 
-// console.log(objects);
-const objects1 = { a: 1, b: 2, c: 3 };
-const objects2 = { c: 5, d: 10, e: 15 };
+const todos = [
+  {
+    text: "ini adalah tugas1",
+    isCompleted: false
+  },
+  {
+    text: "ini adalah tugas2",
+    isCompleted: true
+  },
+  {
+    text: "ini adalah tugas3",
+    isCompleted: false
+  },
+  {
+    text: "ini adalah tugas4",
+    isCompleted: true
+  }
+];
+// const uncompletedTasks = todos.filter(myFunction);
 
-Object.assign(objects1, objects2);
-console.log(objects1);
+// function myFunction(value) {
+//   if (value.isCompleted === false) {
+//     return value;
+//   }
+// }
+
+const uncompletedTasks = todos.filter(value => {
+  if (value.isCompleted === false) {
+    return value;
+  }
+});
+
+console.log(uncompletedTasks);
