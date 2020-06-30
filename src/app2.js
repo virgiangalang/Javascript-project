@@ -6,6 +6,9 @@ const person = {
   nationality: "indonesia"
 };
 
+const personName = person["firstName"];
+console.log(personName);
+
 // console.log(person);
 
 // const person2 = new Object();
