@@ -18,18 +18,18 @@ const todos = [
     isCompleted: true
   }
 ];
-// const uncompletedTasks = todos.filter(myFunction);
+const uncompletedTasks = todos.filter(myFunction);
 
-// function myFunction(value) {
-//   if (value.isCompleted === false) {
-//     return value;
-//   }
-// }
-
-const uncompletedTasks = todos.filter(value => {
+function myFunction(value) {
   if (value.isCompleted === false) {
     return value;
   }
-});
+}
+
+// const uncompletedTasks = todos.filter(value => {
+//   if (value.isCompleted === false) {
+//     return value;
+//   }
+// })
 
 console.log(uncompletedTasks);
