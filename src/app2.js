@@ -1,35 +1,8 @@
-//array of objects
+//Scope
 
-const todos = [
-  {
-    text: "ini adalah tugas1",
-    isCompleted: false
-  },
-  {
-    text: "ini adalah tugas2",
-    isCompleted: true
-  },
-  {
-    text: "ini adalah tugas3",
-    isCompleted: false
-  },
-  {
-    text: "ini adalah tugas4",
-    isCompleted: true
-  }
-];
-const uncompletedTasks = todos.filter(myFunction);
-
-function myFunction(value) {
-  if (value.isCompleted === false) {
-    return value;
-  }
+function myFunction() {
+  const name = "Virgian Galang";
+  console.log(name);
 }
 
-// const uncompletedTasks = todos.filter(value => {
-//   if (value.isCompleted === false) {
-//     return value;
-//   }
-// })
-
-console.log(uncompletedTasks);
+myFunction();
