@@ -1,14 +1,9 @@
-//Scope
+//Hoisting
 
-const name = "Budi Subsidi"; //global scope
+x = 10;
+y = 50;
 
-function myFunction() {
-  // const name = "Virgian Galang";
+console.log(y);
+var x;
 
-  function insideFunc() {
-    console.log(name);
-  }
-  insideFunc();
-}
-
-myFunction();
+var y = 20;
